@@ -27,3 +27,17 @@ let helloworld = function(){
 }
 helloworld();
 //note que para fazer a funcao executar, vc precisa chama-la com os parenteses.
+// também é possivel passar valores para funcao acessar
+let somar = function(valor1, valor2){
+    let resultado = valor1 + valor2;
+    console.log(resultado)
+}
+somar(1,2);
+somar(4,4);
+somar(99,1);
+//esse executara correto
+let somar = function (valor1, valor2){
+    let resultado = valor1+valor2;
+    return resultado;
+}
+// esse NAO executara correto
