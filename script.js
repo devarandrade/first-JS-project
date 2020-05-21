@@ -45,3 +45,17 @@ let somar=function(valor1,valor2){
     return valor1 + valor2;
     console.log(1);
 }
+let somar = function(v1,v2){
+    let resultado = 1+2;
+    console.log(resultado)
+}
+somar(1,2);
+somar(4,4);
+somar(99,1);
+
+//retur
+
+let somar = function(v1,v2){
+    return v1 + v2;
+}
+let resultado = somar(10,10);
