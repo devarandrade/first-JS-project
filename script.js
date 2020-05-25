@@ -1,8 +1,8 @@
 console.log("HELLO WORLD")
 var texto = "200";
 let vetor = [1,2,3,4,5,0,100];
-let vetor = [1,"hello world",true,[1,2,40]];
-let vetor = [11,22,433,50];
+let vetor1 = [1,"hello world",true,[1,2,40]];
+let vetor2 = [11,22,433,50];
 //altera o valor da primeira posição
 vetor[0] = 9000;
 //insere valor após ultimo elemento
@@ -12,7 +12,7 @@ let y = 1;
 y = null;
 //undefined:este tipo de dado aparece quando criamos uma variavel
 // e tentamos acessar seu valor antede ter atribuido algo a ela.
-let x;
+//let x;
 console.log(x);
 // undefined é diferente de null
 console.log (null === undefined);
@@ -34,18 +34,19 @@ let somar = function(valor1, valor2){
 }
 somar(1,2);
 somar(4,4);
-somar(99,1);
+somar(93,1);
+document.querySelector("#teste").innerHTML=somar(10+10)
 //esse executara correto
-let somar = function (valor1, valor2){
+ somar = function (valor1, valor2){
     let resultado = valor1+valor2;
     return resultado;
 }
 // esse NAO executara correto
-let somar=function(valor1,valor2){
+somar=function(valor1,valor2){
     return valor1 + valor2;
     console.log(1);
 }
-let somar = function(v1,v2){
+ somar = function(v1,v2){
     let resultado = 1+2;
     console.log(resultado)
 }
@@ -55,7 +56,9 @@ somar(99,1);
 
 //retur
 
-let somar = function(v1,v2){
+ somar = function(v1,v2){
     return v1 + v2;
 }
 let resultado = somar(10,10);
+// retur faz com que a funcao seja uma ferramenta exelente para tornarmos
+//nosso codigo mais simples de entender
