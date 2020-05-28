@@ -124,4 +124,11 @@ function mudarPropriedade(nomePropriedade, novoValor){
     }
     return "Alteracao concluida";
 }
-//continuando... loops
+//continuando... loops for of
+console.log["----"];
+console.log["for of"];
+for(let aluno of){
+    if(aluno.nota >7){
+        console.log{"$(aluno.nome"} : passou");
+    }
+}
