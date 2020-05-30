@@ -132,3 +132,37 @@ for(let aluno of){
         console.log{"$(aluno.nome"} : passou");
     }
 }
+let carro = {
+    rodas: 4,
+    portas: 4,
+    cor: "cinza",
+    ano: 2012,
+};
+ let test = {
+  rodas: null,
+    portas: null,
+    cor: null,
+    ano: null,
+}
+function mudarPropriedade(nomePropriedade){
+         if(carro.rodas > 1){
+            test.rodas = carro.rodas;
+         }else if(carro.rodas <= 1){
+           console.log("Minimo de rodas precisa ser 2");
+         }if (carro.portas >= 1){
+           test.portas = carro.portas
+         }else if(carro.portas == 0){
+           console.log("Minimo de portas precisa ser 1");
+         }if(carro.cor !== "cinza" || carro.cor !== "preto" || carro.cor !== "vermelho"){
+           test.cor = "Pink"
+         }else if(carro.cor == "cinza"){
+           test.cor = carro.cor
+         }if(carro.ano < 2019){
+           test.ano = "usado"
+         }else if(carro.ano >= 2019){
+           carro.ano = "novo";
+         }
+    return "Alteracao concluida";
+}
+console.log(mudarPropriedade(carro));
+console.log(test)
