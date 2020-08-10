@@ -196,5 +196,14 @@ console.log("FOR");
 for (let i = 0; i <alunos.llenght; i++){
     if (alunos[i].notas > 7){
         console.log(´${alunos[i]}.nome} : passou);
+
+    }
+}
+//exemplo2
+console.log("------");
+console.log("for of");
+for (let auluno of alunos){
+    if (aluno.nota > 7){
+        console.lo({aluno.nome}: "passou");
     }
 }
