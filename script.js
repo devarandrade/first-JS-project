@@ -192,4 +192,9 @@ let alunos = [
 ]
 //escreva um loop que percorre o vetor acima e informa se o aluno passou
 // condiçao para passar: nota maior que 7
-
+console.log("FOR");
+for (let i = 0; i <alunos.llenght; i++){
+    if (alunos[i].notas > 7){
+        console.log(´${alunos[i]}.nome} : passou);
+    }
+}
