@@ -166,3 +166,30 @@ function mudarPropriedade(nomePropriedade){
 }
 console.log(mudarPropriedade(carro));
 console.log(test)
+/*revisao loops*/ 
+let alunos = [
+    {
+        nome: "maria",
+        nota: 8
+    },
+    {
+        nome:"pedro"
+        nota 4
+    },
+    {
+        nome: "joao"
+        nota 10
+    },
+    {
+        nome: "ana"
+        nota 7
+    },
+    {
+        nome: "bianca"
+        nota 6
+    },
+
+]
+//escreva um loop que percorre o vetor acima e informa se o aluno passou
+// condiçao para passar: nota maior que 7
+
