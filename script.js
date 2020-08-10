@@ -173,20 +173,20 @@ let alunos = [
         nota: 8
     },
     {
-        nome:"pedro"
-        nota 4
+        nome:"pedro",
+        nota 4,
     },
     {
-        nome: "joao"
-        nota 10
+        nome: "joao",
+        nota 10,
     },
     {
-        nome: "ana"
-        nota 7
+        nome: "ana",
+        nota 7,
     },
     {
-        nome: "bianca"
-        nota 6
+        nome: "bianca",
+        nota 6,
     },
 
 ]
